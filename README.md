@@ -30,13 +30,37 @@ Matéria/
 
 ---
 
-## ⚙️ Tecnologias e Ferramentas
+# ⚙️ Tecnologias e Ferramentas – Engenharia de Software FIAP
 
-Durante o curso, as principais linguagens e ferramentas incluem:
-- 🧩 **Java**, **Python**, **JavaScript**, **React**, **SQL**
-- 🗄️ **MySQL**, **MongoDB**
-- ☁️ **AWS**, **Azure**, **Firebase**
-- 🧰 **Git**, **GitHub**, **VS Code**, **NetBeans**
+Este repositório apresenta as principais linguagens, ferramentas e tecnologias utilizadas no curso de Engenharia de Software da FIAP, organizadas por ano.
+
+
+## 1º Ano
+- 🐍 **Python** — Computational Thinking with Python  
+- 🌐 **HTML / CSS / JavaScript** — Front-end Design, Web Development  
+- 🧠 **Lógica e resolução de problemas** — Differentiated Problem Solving  
+- 🖌️ **UX/UI Design** — Software & Total Experience Design  
+- 📖 **Storytelling e empreendedorismo** — Storytelling e Inspiração Empreendedora  
+- 🧰 **Ferramentas**: VS Code, Git, GitHub, navegadores, editores de design
+
+
+## 2º Ano
+- 🧩 **Agile Methodology with Squad Framework**  
+- 🕶️ **AR/VR Modelling and Simulation**  
+- 📊 **Data Science & Statistical Computing** — Python, Pandas, Matplotlib  
+- 🧱 **Database Design** — MySQL, PostgreSQL  
+- ☕ **Domain Driven Design – Java** — Java, Maven/Gradle, NetBeans/IntelliJ  
+- 🧮 **Dynamic Programming** — Python / Java / C++  
+- 🌐 **Network Architect Solutions** — Conceitos de redes, Packet Tracer, GNS3  
+- 🧰 **Ferramentas**: IDEs (VS Code, NetBeans, IntelliJ), Git/GitHub, simuladores de rede
+
+
+## 3º Ano
+**A determinar**
+
+
+## 4º Ano
+**A determinar**
 
 ---
 
