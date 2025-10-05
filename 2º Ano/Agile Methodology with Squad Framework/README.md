@@ -8,9 +8,6 @@ Foco em metodologias ágeis, Scrum e trabalho em squads reais de desenvolvimento
 ┣ Agile Methodology with Squad Framework/
 ┃ ┣ Trabalhos/ ← CPs, GSs e Sprints
 
-yaml
-Copiar código
-
 ## Conteúdo
 - CPs: Checkpoints de atividades práticas
 - GSs: Guias e estudos sobre metodologias ágeis
