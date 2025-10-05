@@ -28,9 +28,6 @@ Matéria/
 ┃ ┗ Sprint/ → Projetos menores e integrações
 ┗ README.md → Resumo da matéria, tecnologias usadas e observações
 
-yaml
-Copiar código
-
 ---
 
 ## ⚙️ Tecnologias e Ferramentas
