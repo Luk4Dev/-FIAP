@@ -1,5 +1,5 @@
-📘 SmartMatch — Sistema de Recomendação (GS)
-Integrantes
+## 📘 SmartMatch — Sistema de Recomendação (GS)
+# Integrantes
 
 Diego Garcia Tosta — RM: 556724
 
@@ -7,7 +7,7 @@ Joud Jihad Jaber — RM: 556482
 
 Lucca Pereira — RM: 560731
 
-📝 Sobre o Projeto
+## 📝 Sobre o Projeto
 
 Esse projeto é a nossa GS de Engenharia de Software.
 A ideia foi criar um sistema de recomendação simples chamado SmartMatch, que indica cursos para os usuários com base no que eles já compraram e nos interesses deles.
@@ -26,7 +26,7 @@ memoization
 
 Tentamos deixar tudo o mais organizado possível pra ficar fácil de entender.
 
-📌 1. Modelagem dos Dados
+## 📌 1. Modelagem dos Dados
 
 Primeiro, montamos os dados:
 
@@ -37,7 +37,7 @@ Criamos 10 usuários, cada um com seus interesses e compras
 Depois disso, montamos um grafo conectando os cursos que compartilham tags.
 Esse grafo é usado depois para encontrar cursos parecidos.
 
-📌 2. Recomendação (Algoritmo Guloso)
+## 📌 2. Recomendação (Algoritmo Guloso)
 
 Aqui foi onde fizemos o sistema de recomendação.
 
@@ -49,7 +49,7 @@ tags em comum + 0.1 * nota do curso
 Usamos memoization pra não recalcular score repetido.
 No fim, ele pega os 3 cursos com maior score e recomenda pro usuário.
 
-📌 3. Agrupamento dos Usuários (Recursão)
+## 📌 3. Agrupamento dos Usuários (Recursão)
 
 Também fizemos um agrupamento usando o método de Dividir e Conquistar.
 
@@ -58,7 +58,7 @@ Depois, dividimos a lista de usuários recursivamente para formar clusters menor
 
 Por fim, dentro de cada cluster, pegamos os cursos mais comprados e recomendamos para aquele grupo.
 
-📊 O que o código mostra quando roda
+## 📊 O que o código mostra quando roda
 
 O grafo completo de cursos
 
@@ -70,7 +70,8 @@ E as recomendações para cada cluster
 
 Tudo o que foi pedido no PDF está funcionando certinho.
 
-✔️ Conclusão
+## ✔️ Conclusão
 
 O projeto cobre toda a GS: modelagem, grafo, guloso, memoization, recursão e agrupamento.
+
 A ideia foi mostrar como tudo isso se conecta num sistema de recomendação simples, mas funcional.
