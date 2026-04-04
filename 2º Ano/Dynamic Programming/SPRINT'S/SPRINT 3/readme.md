@@ -1,15 +1,18 @@
-🧾 DOCUMENTAÇÃO
-🔹 Verificação de Duplicidade
+# Dynamic Programming - Sprint 3
 
-Foi implementada uma função recursiva que percorre a lista de leads e compara os dados com um novo cadastro, verificando possíveis duplicidades com base em CPF e e-mail.
+## Objetivo
+Implementar soluções usando recursão e memoização para evitar duplicidade de leads e otimizar agenda.
 
-🔹 Uso de Memoização
+## Funcionalidades
 
-Para otimizar o processo, foi aplicada memoização, armazenando resultados de comparações já realizadas, evitando repetições desnecessárias e melhorando o desempenho.
+### Verificação de duplicidade
+Função recursiva que percorre a lista de leads...
 
-🔹 Otimização de Agenda
+### Memoização
+Evita cálculos repetidos...
 
-Foi desenvolvida uma função recursiva para verificar o melhor encaixe de horários disponíveis, analisando combinações possíveis de intervalos para atender um tempo específico de consulta.
+### Otimização de agenda
+Calcula melhor encaixe de horários...
 
 ## Participantes
 
