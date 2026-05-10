@@ -1,0 +1,32 @@
+Fluxo do CRM representado como grafo direcionado:
+
+Lead -> Primeiro Atendimento | custo: 2
+Lead -> Recontato | custo: 5
+Lead -> Aguardando Retorno | custo: 7
+Primeiro Atendimento -> Qualificacao | custo: 2
+Primeiro Atendimento -> Recontato | custo: 4
+Recontato -> Qualificacao | custo: 3
+Recontato -> Aguardando Retorno | custo: 4
+Aguardando Retorno -> Recontato | custo: 2
+Aguardando Retorno -> Perdido | custo: 8
+Qualificacao -> Cadastro do Paciente | custo: 2
+Qualificacao -> Perdido | custo: 6
+Cadastro do Paciente -> Escolha do Procedimento | custo: 1
+Escolha do Procedimento -> Agendamento | custo: 2
+Escolha do Procedimento -> Orcamento | custo: 3
+Orcamento -> Agendamento | custo: 2
+Orcamento -> Aguardando Retorno | custo: 4
+Agendamento -> Confirmacao | custo: 1
+Agendamento -> Reagendamento | custo: 4
+Agendamento -> Cancelado | custo: 6
+Reagendamento -> Confirmacao | custo: 2
+
+Resultado do algoritmo de Dijkstra:
+----------------------------------------
+Origem: Lead
+Destino: Confirmacao
+Menor caminho encontrado: Lead -> Primeiro Atendimento -> Qualificacao -> Cadastro do Paciente -> Escolha do Procedimento -> Agendamento -> Confirmacao
+Custo total: 10
+
+Interpretacao:
+O menor caminho representa o fluxo mais direto para transformar um lead em uma consulta confirmada. Esse caminho evita etapas mais demoradas, como recontato, aguardando retorno, reagendamento ou perda do lead. Por isso, ele e mais eficiente para o CRM.
