@@ -12,8 +12,6 @@ Backend desenvolvido para a disciplina **Domain Driven Design (DDD)** da Global 
 
 ## URLs obrigatórias
 
-> Preencher antes da entrega final.
-
 - **URL do vídeo técnico:** `INSERIR_LINK_YOUTUBE_NAO_LISTADO_AQUI`
 - **URL do vídeo pitch:** `https://youtu.be/dNRnWeJZ_xo`
 
