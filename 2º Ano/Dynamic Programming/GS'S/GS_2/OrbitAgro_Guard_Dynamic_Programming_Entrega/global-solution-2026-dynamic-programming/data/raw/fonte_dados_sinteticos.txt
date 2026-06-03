@@ -1,0 +1,1 @@
+Dados sinteticos justificados para prototipo academico. Variaveis baseadas no enunciado: custo logistico, risco agroclimatico, probabilidade historica e bloqueios. Substituiveis por NASA Earthdata, INPE, INMET, ANA, IBGE e ANATEL.

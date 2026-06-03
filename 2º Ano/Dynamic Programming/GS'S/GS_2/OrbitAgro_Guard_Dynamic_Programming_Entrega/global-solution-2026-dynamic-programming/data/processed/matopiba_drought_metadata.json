@@ -1,0 +1,10 @@
+{
+  "name": "Seca no Cerrado e Nordeste / MATOPIBA",
+  "key": "matopiba_drought",
+  "description": "Grade sintetica 50x50 para estiagem severa no MATOPIBA, usando variaveis de risco, custo logistico e probabilidade historica.",
+  "shape": [
+    50,
+    50
+  ],
+  "synthetic_justification": "Dados sinteticos compostos conforme variaveis indicadas no enunciado: custo logistico, risco, probabilidade historica e celulas bloqueadas. Estrutura pronta para substituicao por fontes NASA/INPE/INMET/ANA/ANATEL."
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Conectividade Rural via Satelite",
+  "key": "rural_connectivity",
+  "description": "Grade sintetica 50x50 para municipios/celulas rurais com baixa conectividade, priorizando expansao de infraestrutura via satelite.",
+  "shape": [
+    50,
+    50
+  ],
+  "synthetic_justification": "Dados sinteticos compostos conforme variaveis indicadas no enunciado: custo logistico, risco, probabilidade historica e celulas bloqueadas. Estrutura pronta para substituicao por fontes NASA/INPE/INMET/ANA/ANATEL."
+}

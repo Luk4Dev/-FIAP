@@ -1,0 +1,109 @@
+{
+  "team": [
+    {
+      "name": "Diego Garcia Tosta",
+      "rm": "556724"
+    },
+    {
+      "name": "Joud Jihad Jaber",
+      "rm": "556482"
+    },
+    {
+      "name": "Lucca Pereira",
+      "rm": "560731"
+    }
+  ],
+  "scenarios": {
+    "matopiba_drought": {
+      "name": "Seca no Cerrado e Nordeste / MATOPIBA",
+      "shape": [
+        50,
+        50
+      ],
+      "bottom_up_cost": 879.4647961091371,
+      "top_down_cost": 879.4647961091371,
+      "bottom_up_iterations": 2500,
+      "top_down_calls": 2595,
+      "destination": [
+        49,
+        0
+      ],
+      "path_length": 50,
+      "blocked_cells": 118,
+      "monte_carlo_20x20": {
+        "mean": 411.0281504699178,
+        "median": 411.0348771511267,
+        "std": 0.8200076833991894,
+        "ci95_low": 411.0120783193232,
+        "ci95_high": 411.0442226205124,
+        "scenarios": 10000
+      }
+    },
+    "rural_connectivity": {
+      "name": "Conectividade Rural via Satelite",
+      "shape": [
+        50,
+        50
+      ],
+      "bottom_up_cost": 1061.05263585845,
+      "top_down_cost": 1061.05263585845,
+      "bottom_up_iterations": 2500,
+      "top_down_calls": 2597,
+      "destination": [
+        0,
+        49
+      ],
+      "path_length": 50,
+      "blocked_cells": 76,
+      "monte_carlo_20x20": {
+        "mean": 484.84815882392337,
+        "median": 484.8681879424479,
+        "std": 0.9650009479153521,
+        "ci95_low": 484.8292448053442,
+        "ci95_high": 484.8670728425025,
+        "scenarios": 10000
+      }
+    }
+  },
+  "validation": {
+    "brute_force_cost": 195.13293343433332,
+    "dp_cost": 195.13293343433332,
+    "same_cost": true,
+    "brute_force_calls": 243,
+    "paths_evaluated": 4
+  },
+  "monte_carlo_matopiba_20x20": {
+    "mean": 411.0281504699178,
+    "median": 411.0348771511267,
+    "std": 0.8200076833991894,
+    "ci95_low": 411.0120783193232,
+    "ci95_high": 411.0442226205124,
+    "scenarios": 10000
+  },
+  "sensitivity_matopiba_20x20": {
+    "-20%": {
+      "mean": 406.94532525889736,
+      "median": 406.9461355341395,
+      "std": 0.8463531780874846,
+      "ci95_low": 406.9287367366068,
+      "ci95_high": 406.9619137811879,
+      "scenarios": 10000
+    },
+    "baseline": {
+      "mean": 411.0394278828443,
+      "median": 411.03299061844655,
+      "std": 0.8060208418181174,
+      "ci95_low": 411.02362987434464,
+      "ci95_high": 411.0552258913439,
+      "scenarios": 10000
+    },
+    "+20%": {
+      "mean": 414.81269706897126,
+      "median": 414.82692350502174,
+      "std": 0.7350747752721474,
+      "ci95_low": 414.7982896033759,
+      "ci95_high": 414.8271045345666,
+      "scenarios": 10000
+    }
+  }
+}
